@@ -1,0 +1,42 @@
+# --- Large raw data (see data/README.md for how to obtain) -----------------
+data/raw/
+*.csv.gz
+ifmha_subset_stat.csv
+Bankfull_Meanflow_CONUS.txt
+
+# --- Environments / caches --------------------------------------------------
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# --- Editor / OS cruft -------------------------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Backups / scratch (should never exist in this repo, but just in case) --
+.fix_backup_*/
+backup_final_notebooks/
+*_backup/
+*.bak
+
+# --- Explicitly out of scope: in-progress / superseded investigation work --
+# (kept out of this repo entirely -- see README "Scope" section)
+reviewer_prep_lowflow/
+IFMHA-2/
+last edits request/
+*MIN_GAP*
+*mingap*
+MarginalFix_*
+MARGINAL_FIX_RESULTS.md
+copula_analysis_*_cleaned.ipynb
+
+# --- Intermediate / scratch figure artifacts --------------------------------
+figures/_tmp_*
+figures/_left_panel_*

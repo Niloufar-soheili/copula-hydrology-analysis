@@ -1,0 +1,6 @@
+{
+  "site": "6606600",
+  "discharge_dist": "GammaUnivariate",
+  "stage_dist": "GammaUnivariate",
+  "n_points": 221
+}

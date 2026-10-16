@@ -1,0 +1,6 @@
+{
+  "site": "8096500",
+  "discharge_dist": "GammaUnivariate",
+  "stage_dist": "TruncatedGaussian",
+  "n_points": 200
+}

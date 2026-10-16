@@ -1,0 +1,25 @@
+# Generated from the actual imports used in scripts/ and notebooks/ in this
+# repo (checked 2026-10-15), pinned to the versions the final figures and
+# tables were produced with.
+
+numpy==2.4.6
+pandas==2.3.3
+scipy==1.18.0
+matplotlib==3.11.1
+scikit-learn==1.9.0
+copulas==0.14.1
+cartopy==0.25.0
+Pillow==12.3.0
+tqdm==4.70.0
+statsmodels==0.14.6
+jupyter==1.1.1
+
+# Notes:
+# - cartopy (fig-01, CONUS map) has non-Python dependencies (GEOS, PROJ).
+#   On most systems `pip install cartopy` needs a working C toolchain;
+#   conda-forge (`conda install -c conda-forge cartopy`) is more reliable.
+# - The three casestudy_*_gpr_comparison.ipynb notebooks were originally
+#   run in Google Colab and contain `from google.colab import drive` /
+#   Drive-mount cells. Skip or replace those cells when running locally;
+#   everything downstream only needs a local path to the data files
+#   described in data/README.md.
